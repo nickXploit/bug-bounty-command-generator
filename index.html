@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug Bounty Command Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&family=Inter:wght@400;600;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1><span class="accent">&gt;</span> Bug Bounty <span class="accent">Generator</span></h1>
+            <p>Enter a domain to generate recon commands.</p>
+        </header>
+
+        <div class="input-group">
+            <input type="text" id="domainInput" placeholder="example.com" autocomplete="off">
+            <button id="generateBtn">Generate</button>
+        </div>
+
+        <div id="outputArea">
+            <div class="actions">
+                <button id="copyAllBtn" class="secondary-btn">Copy All Scripts</button>
+            </div>
+            <div id="commandsList">
+                <!-- Commands will be injected here -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
