@@ -4,8 +4,6 @@ A modern, dark-themed web application to quickly generate reconnaissance command
 
 Hosted here: https://www.hacktivist.app/
 
-![Bug Bounty Command Generator Screenshot](https://via.placeholder.com/800x400?text=Bug+Bounty+Command+Generator+UI)
-
 ## 🚀 Features
 
 -   **Instant Generation**: Type a domain and see commands update live.
